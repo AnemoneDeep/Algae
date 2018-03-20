@@ -1,0 +1,19 @@
+{
+  "name": "algae",
+  "version": "1.0.0",
+  "description": "Neural for Collections of Marine Algae",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnemoneDeep/Algae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnemoneDeep/Algae/issues"
+  },
+  "homepage": "https://github.com/AnemoneDeep/Algae#readme"
+}
