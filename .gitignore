@@ -4,5 +4,6 @@
 doc/*.html
 node_modules
 package-lock.json
+yarn.lock
 wiki
 ## release later
