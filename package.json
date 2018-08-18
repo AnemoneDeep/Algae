@@ -23,5 +23,8 @@
     "fs-extra": "^5.0.0",
     "lowdb": "^1.0.0",
     "request": "^2.85.0"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
   }
 }
