@@ -24,6 +24,7 @@ algea.each = require('./lib/arithmetic/traverse/each')
 algea.asQueue = require('./lib/arithmetic/queue/async.queue')
 algea.len = require('./lib/core/{}[]/length')
 algea.md5 = require('./lib/arithmetic/md5')
+algea.restfull = require('./lib/restfull')
 
 
 algea.getType = getType
