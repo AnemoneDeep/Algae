@@ -6,4 +6,5 @@ node_modules
 package-lock.json
 yarn.lock
 wiki
+test
 ## release later
