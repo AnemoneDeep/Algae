@@ -27,6 +27,7 @@ algea.len = require('./lib/core/{}[]/length')
 algea.md5 = require('./lib/arithmetic/md5')
 algea.restfull = require('./lib/restfull')
 algea.lowDBClient = require('./lib/aDB')
+algea.time = time
 
 algea.getType = getType
 algea.isType = _isType
@@ -34,8 +35,9 @@ algea.isType = _isType
 algea.httpReq = httpReq
 algea.httpGet = httpGet
 
+// npm part
 algea.axios = require('axios')
+algea.escaper = require("true-html-escape");
 
-algea.time = time
 
 module.exports = algea;
