@@ -20,7 +20,10 @@ lib
 ===
     default Method
     Base on options Extend  imprort other Method
-
+doc
+====
+    api
+    wiki
 test
 ====
     run test

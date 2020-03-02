@@ -19,7 +19,7 @@ let VERSION = '1.0.0';
 let algea = {VERSION};
 let {getType, _isType} = require('./lib/core/type')
 let {httpReq, httpGet} = require('./lib/net')
-let time = require('./lib/time')
+let time = require('./lib/core/time')
 
 algea.nextTick = require('./lib/core/stone/nextTick')
 algea.each = require('./lib/arithmetic/traverse/each')
