@@ -24,6 +24,11 @@ doc
 ====
     api
     wiki
+dev
+====
+    git add .xxxx
+    git cz
+    npm run changelog   
 test
 ====
     run test
