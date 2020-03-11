@@ -20,6 +20,12 @@ lib
 ===
     default Method
     Base on options Extend  imprort other Method
+require:
+
+```javascript
+let Algae  = require('Algae');
+```
+
 doc
 ====
     api
@@ -29,6 +35,8 @@ dev
     git add .xxxx
     git cz
     npm run changelog   
+    yarn link "Algae"
 test
 ====
     run test
+    test Algae

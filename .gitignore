@@ -1,10 +1,12 @@
 .DS_Store
 *.log
 .idea
-doc/*.html
+doc/*
 node_modules
 package-lock.json
 yarn.lock
 wiki
 test
+lib/*.md
+lib/**/*.md
 ## release later
