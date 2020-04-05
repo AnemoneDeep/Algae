@@ -21,6 +21,7 @@ const path = require('path')
 module.exports = {
 	resolve: {
 		alias: {
+			'@': path.resolve(__dirname, 'lib'),
 			'@core': path.resolve(__dirname, 'lib/core'),
 			'@arithmetic': path.resolve(__dirname, 'lib/arithmetic'),
 			'@each': path.resolve(__dirname, 'lib/arithmetic/traverse/each/index.js')
