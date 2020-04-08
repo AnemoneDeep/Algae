@@ -40,7 +40,10 @@ algea.queue = require('./lib/arithmetic/queue/queue')
 algea.uuid = require('./lib/arithmetic/uuid/index')
 //-----------------------------------------------------------
 algea.md5 = require('./lib/arithmetic/md5')
+
 algea.len = require('./lib/core/{}[]/length')
+algea.arr2obj = require('./lib/core/{}[]/2[]{}.js')
+algea.obj2arr = require('./lib/core/{}[]/2{}[].js')
 
 algea.lowDBClient = require('./lib/db/lowdb')
 
