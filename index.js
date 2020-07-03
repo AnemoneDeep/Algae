@@ -45,7 +45,9 @@ algea.len = require('./lib/core/{}[]/length')
 algea.arr2obj = require('./lib/core/{}[]/2[]{}.js')
 algea.obj2arr = require('./lib/core/{}[]/2{}[].js')
 
+// db --------------------------------------------------
 algea.lowDBClient = require('./lib/db/lowdb')
+algea.lowDBApi = require('./lib/db/lowdb/lowDBApi')
 
 algea.restfull = require('./lib/middlewares/restfull')
 algea.BootStrap = require('./lib/middlewares/server/BootStrap')
