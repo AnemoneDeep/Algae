@@ -23,9 +23,11 @@ let VERSION = '1.0.0';
 
 const ARequire = require('./Algae.require')
 
-let {getType, _isType} = require('./lib/core/type')
-let {httpReq, httpGet} = require('./lib/net')
 let time = require('./lib/core/time')
+let {getType, _isType} = require('./lib/core/type')
+
+let {httpReq, httpGet} = require('./lib/net')
+
 global.ARequire = ARequire
 
 algea.ARequire = ARequire
@@ -40,11 +42,12 @@ algea.queue = require('./lib/arithmetic/queue/queue')
 algea.uuid = require('./lib/arithmetic/uuid/index')
 //-----------------------------------------------------------
 algea.md5 = require('./lib/arithmetic/md5')
-
+// [] {}--------------------------------------
 algea.len = require('./lib/core/{}[]/length')
 algea.arr2obj = require('./lib/core/{}[]/2[]{}.js')
 algea.obj2arr = require('./lib/core/{}[]/2{}[].js')
-
+algea.chunk = require('./lib/core/{}[]/chunk.js')
+// [] {}--------------------------------------
 // db --------------------------------------------------
 algea.lowDBClient = require('./lib/db/lowdb')
 algea.lowDBApi = require('./lib/db/lowdb/lowDBApi')
@@ -56,13 +59,14 @@ algea.time = time
 
 algea.getType = getType
 algea.isType = _isType
-
+//------------net--------------------
 algea.httpReq = httpReq
 algea.httpGet = httpGet
-
+algea.parse = require('./lib/net/parse')
 // npm part
 algea.axios = require('axios')
 algea.escaper = require("true-html-escape");
 algea.fs = fs
+algea.async = require('async')
 
 module.exports = algea;
