@@ -28,10 +28,11 @@
   "dependencies": {
     "@tensorflow/tfjs": "^3.3.0",
     "axios": "^0.21.1",
+    "crypto": "^1.0.1",
     "iconv-lite": "^0.5.0",
     "mongodb": "^3.5.5",
     "pako": "^2.0.3",
-    "redis": "^2.8.0",
+    "redis": "^3.1.2",
     "socket.io": "^3.1.0",
     "socket.io-client": "^3.1.0",
     "true-html-escape": "^1.0.0"
