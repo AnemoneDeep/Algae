@@ -26,7 +26,7 @@ const ARequire = require('./Algae.require')
 let time = require('./lib/core/time')
 let {getType, _isType} = require('./lib/core/type')
 
-let {httpReq, httpGet} = require('./lib/net')
+let {httpReq, httpGet, api} = require('./lib/net')
 
 global.ARequire = ARequire
 
@@ -51,6 +51,7 @@ algea.chunk = require('./lib/core/{}[]/chunk.js')
 // db --------------------------------------------------
 algea.lowDBClient = require('./lib/db/lowdb')
 algea.lowDBApi = require('./lib/db/lowdb/lowDBApi')
+algea.redisClicent = require('./lib/db/redis/client')
 
 algea.restfull = require('./lib/middlewares/restfull')
 algea.BootStrap = require('./lib/middlewares/server/BootStrap')
@@ -62,7 +63,10 @@ algea.isType = _isType
 //------------net--------------------
 algea.httpReq = httpReq
 algea.httpGet = httpGet
+algea.api = api
 algea.parse = require('./lib/net/parse')
+algea.webSocketClient = require('./lib/net/socket/wsClient')
+
 // npm part
 algea.axios = require('axios')
 algea.escaper = require("true-html-escape");
