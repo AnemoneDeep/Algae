@@ -16,12 +16,13 @@ Neural for Collections of Marine Algae
          　　　∠_　　　　　ｰ＝= 二_ｰ
          　　／　　 ¨ヾ､
          ﾉﾍ　　　　　　ヽ see me in the dark take me to your heart
-lib
+INFO
 ===
-    default Method
-    Base on options Extend  imprort other Method
+    Default Method
+        lib fn   5%
+    Machine Learning
+        TensorFlow    0.1%
 require:
-
 ```javascript
 let Algae  = require('Algae');
 ```
@@ -30,13 +31,20 @@ doc
 ====
     api
     wiki
+    redis [https://redis.io/commands/](https://redis.io/commands/)
 dev
 ====
-    git add .xxxx
-    git cz
+    git Commitizen
+            npm install -g commitizen
+        git add .xxxx
+        git cz
+
     npm run changelog   
-    yarn link "Algae"
-test
+    globe dev use Algae
+        yarn link "Algae"
+TODO    
 ====
-    run test
-    test Algae
+    test
+    ====
+        run test
+        test Algae
