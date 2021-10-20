@@ -42,6 +42,8 @@ algea.queue = require('./lib/arithmetic/queue/queue')
 algea.uuid = require('./lib/arithmetic/uuid/index')
 //-----------------------------------------------------------
 algea.md5 = require('./lib/arithmetic/md5')
+algea.CryptoJS = require("crypto-js");
+algea.mathjs = require('mathjs')
 // [] {}--------------------------------------
 algea.len = require('./lib/core/{}[]/length')
 algea.arr2obj = require('./lib/core/{}[]/2[]{}.js')
@@ -57,7 +59,7 @@ algea.restfull = require('./lib/middlewares/restfull')
 algea.BootStrap = require('./lib/middlewares/server/BootStrap')
 
 algea.time = time
-
+algea.dayjs = require('dayjs')
 algea.getType = getType
 algea.isType = _isType
 //------------net--------------------
@@ -66,7 +68,7 @@ algea.httpGet = httpGet
 algea.api = api
 algea.parse = require('./lib/net/parse')
 algea.webSocketClient = require('./lib/net/socket/wsClient')
-
+algea.webSocketSever = require('./lib/net/socket/wsSever')
 // npm part
 algea.axios = require('axios')
 algea.escaper = require("true-html-escape");
